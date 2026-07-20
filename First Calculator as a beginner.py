@@ -23,8 +23,8 @@ print("My first Calculator".center(50))  #Basic Calculator for performing genera
                 print("Error: Division by zero")
             else:
                 print(f"Result: {num1 / num2}")
-            else:
-                print(f"Rsult: {num1 / num2}")    
+        else:
+            print(f"Rsult: {num1 / num2}")    
 
     else:
         print("Invalid choice. Please try again.")
