@@ -1,9 +1,5 @@
-# name="Dubey"
-# for letter in name:
-#     print(letter)
-
-print("My first Calculator".center(50))
-while True:
+print("My first Calculator".center(50))  #Basic Calculator for performing general mathematical operations
+# while True:                      #Using While Loops
     print("1.Addition")
     print("2.Subtraction")
     print("3.Multiplication")
@@ -12,7 +8,7 @@ while True:
     choice = input("Enter choice(1/2/3/4/5): ")
     if choice in ('5',):
         print("Exiting the calculator")
-        break
+        break            #Break is used to stop the programme right away
     elif choice in ('1', '2', '3', '4', '5'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
@@ -27,9 +23,6 @@ while True:
                 print("Error: Division by zero")
             else:
                 print(f"Result: {num1 / num2}")
-        elif choice =='4':
-            if num2 == "":
-                print("Error:You are dividing by a letter/word")
             else:
                 print(f"Rsult: {num1 / num2}")    
 
